@@ -11,9 +11,14 @@ This program is dedicated to windows computers for the moment.
 - add a config to the `config.json` file:
 	````json
 	{
-		"key": ["ctrl+alt+n"],								// any key combinaisons
-		"mode": "run",										// run, write or press
-		"command": "%windir%\\system32\\notepad.exe"		// command to run / text to write / key(s) to press
+		// any key combinaisons
+		"key": ["ctrl+alt+n"],
+		
+		// run, write or press
+		"mode": "run",
+		
+		// command to run / text to write / key(s) to press
+		"command": "%windir%\\system32\\notepad.exe"
 	}
 	```
 - for example the config used above will run notepad when `ctrl + alt + n` are pressed
