@@ -1,4 +1,4 @@
-#ShortCut Manager {SCM} [0.3.0]
+# ShortCut Manager {SCM} [0.3.0]
 
 This program is use to add shortcuts that can launch apps or programs.
 This program is dedicated to windows computers for the moment.
@@ -6,7 +6,7 @@ This program is dedicated to windows computers for the moment.
 ------
 
 
-###Configuring ?
+### Configuring ?
 
 - add a config to the `config.json` file:
 	* key		: any key combinaisons
@@ -22,7 +22,7 @@ This program is dedicated to windows computers for the moment.
 - for example the config used above will run notepad when `ctrl + alt + n` are pressed
 
 
-###Windows Apps ?
+### Windows Apps ?
 
 - has you know some windows apps can't be executed from command prompt but with shell we can so in this file: [Here](./get_winapp_startcode.txt), I have put some informations of how to run windows app from this program
 - for example this config run ZuneMusic:
@@ -34,7 +34,7 @@ This program is dedicated to windows computers for the moment.
 	}
 	```
 
-###Running ?
+### Running ?
 
 - create a shortcut of the `main.pyw` file.
 - put it in the `shell:startup` folder.
