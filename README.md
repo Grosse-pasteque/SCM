@@ -11,13 +11,13 @@ This program is dedicated to windows computers for the moment.
 - add a config to the `config.json` file:
 	````json
 	{
-		// any key combinaisons
+		//any key combinaisons
 		"key": ["ctrl+alt+n"],
 		
-		// run, write or press
+		//run, write or press
 		"mode": "run",
 		
-		// command to run / text to write / key(s) to press
+		//command to run / text to write / key(s) to press
 		"command": "%windir%\\system32\\notepad.exe"
 	}
 	```
