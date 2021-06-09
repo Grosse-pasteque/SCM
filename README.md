@@ -9,7 +9,7 @@ This program is dedicated to windows computers for the moment.
 ###Configuring ?
 
 - add a config to the `config.json` file:
-	````json
+	```json
 	{
 		//any key combinaisons
 		"key": ["ctrl+alt+n"],
