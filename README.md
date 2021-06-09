@@ -9,9 +9,9 @@ This program is dedicated to windows computers for the moment.
 ### Configuring ?
 
 - add a config to the `config.json` file:
-	* key		: any key combinaisons
-	* mode		: run, write or press
-	* command	: command to run / text to write / key(s) to press
+	* key		| any key combinaisons
+	* mode		| run, write or press
+	* command	| command to run / text to write / key(s) to press
 	```json
 	{
 		"key": ["ctrl+alt+n"],	
