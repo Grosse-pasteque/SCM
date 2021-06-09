@@ -1,0 +1,32 @@
+[
+	{
+		"key": ["ctrl+alt+d"],
+		"mode": "run",
+		"command": "C:\\Users\\gross\\AppData\\Local\\Discord\\Update.exe --processStart Discord.exe"
+	},
+	{
+		"key": ["ctrl+alt+s"],
+		"mode": "run",
+		"command": "C:\\Program Files\\Sublime Text 3\\sublime_text.exe"
+	},
+	{
+		"key": ["ctrl+alt+g"],
+		"mode": "run",
+		"command": "C:\\Users\\gross\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+	},
+	{
+		"key": ["ctrl+alt+n"],
+		"mode": "run",
+		"command": "%windir%\\system32\\notepad.exe"
+	},
+	{
+		"key": ["ctrl+alt+c"],
+		"mode": "run",
+		"command": "%windir%\\system32\\SnippingTool.exe"
+	},
+	{
+		"key": ["ctrl+alt+m"],
+		"mode": "run",
+		"command": "explorer.exe shell:AppsFolder\\Microsoft.ZuneMusic_8wekyb3d8bbwe!Microsoft.ZuneMusic"
+	}
+]

@@ -1,0 +1,29 @@
+win+r: shell:AppsFolder
+
+create desktop shortcut of app
+
+POWERSHELL > Desktop
+
+Get-AppxPackage > 123.txt
+
+Search:
+- shortcut target
+
+Take:
+- family_name={family_name}
+
+Open:
+- explorer shortcut target
+
+Open:
+- AppxManifest.xml
+
+Search:
+- 'Executable='
+
+Take:
+- one the same line:
+	app_id={ID}
+
+Execute:
+- explorer.exe shell:AppsFolder\{family_name}!{app_id}
