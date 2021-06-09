@@ -17,7 +17,7 @@ This program is dedicated to windows computers for the moment.
 		//run, write or press
 		"mode": "run",
 		
-		//command to run / text to write / key(s) to press
+		//command to run , text to write , key(s) to press
 		"command": "%windir%\\system32\\notepad.exe"
 	}
 	```
